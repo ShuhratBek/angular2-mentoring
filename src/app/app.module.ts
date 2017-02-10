@@ -9,8 +9,8 @@ import '../main.css';
 
 import {AppComponent} from './app.component';
 import {routing, appRoutingProviders} from './app.routing';
-import {HomeComponent} from './home/home.component';
-import {AboutComponent} from './about/about.component';
+import {HomeComponent} from './home';
+import {AboutComponent} from './about';
 
 @NgModule({
     declarations: [
