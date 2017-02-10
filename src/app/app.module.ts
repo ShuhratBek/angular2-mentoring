@@ -1,16 +1,16 @@
-import {NgModule} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {FormsModule} from '@angular/forms';
-import {HttpModule, JsonpModule} from '@angular/http';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpModule, JsonpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
-import {FlexLayoutModule} from '@angular/flex-layout';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
-import '../main.css';
+import '../main.css'; // the main style for app
 
-import {AppComponent} from './app.component';
-import {routing, appRoutingProviders} from './app.routing';
-import {HomeComponent} from './home';
-import {AboutComponent} from './about';
+import { AppComponent } from './app.component';
+import { routing, appRoutingProviders } from './app.routing';
+import { HomeComponent } from './home';
+import { AboutComponent } from './about';
 
 @NgModule({
     declarations: [

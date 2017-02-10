@@ -1,8 +1,8 @@
-import {ModuleWithProviders}  from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
+import { ModuleWithProviders }  from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
-import {HomeComponent} from './home';
-import {AboutComponent} from './about';
+import { HomeComponent } from './home';
+import { AboutComponent } from './about';
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
