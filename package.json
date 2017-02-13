@@ -14,7 +14,7 @@
     "start": "webpack-dev-server --inline --colors --progress --port 3000",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --colors --profile --bail",
     "test": "karma start",
-    "server": "npm run build && node server.js"
+    "server": "npm run start && node server.js"
   },
   "dependencies": {
     "@angular/common": "^2.4.1",
